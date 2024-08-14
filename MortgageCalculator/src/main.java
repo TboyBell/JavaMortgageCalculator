@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Font;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
@@ -76,6 +77,8 @@ public class main {
 		repayment.setFont(font);
 		repayment.setFocusable(false);
 		repayment.setToolTipText("Calculate Repayment");
+		repayment.setForeground(Color.WHITE);
+        repayment.setBackground(new Color(191, 0, 255));
 		repayment.addActionListener(new ActionListener() {
 
 			@Override
@@ -94,6 +97,8 @@ public class main {
 		intrest.setFont(font);
 		intrest.setFocusable(false);
 		intrest.setToolTipText("Calculate Intrest");
+		intrest.setForeground(Color.WHITE);
+        intrest.setBackground(new Color(191, 0, 255));
 		intrest.addActionListener(new ActionListener() {
 
 			@Override
